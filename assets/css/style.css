@@ -1,0 +1,356 @@
+/* All Section Start */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* All Section End */
+
+
+
+/* Body Section All Background-Color Start */
+#body-section {
+    /* font-family: 'Poppins', sans-serif; */
+    background: #101828;
+}
+
+/* Body Section All Background-Color End */
+
+
+
+/* Header Section Start */
+#navbar-section nav {
+    background: #101828;
+}
+
+#navbar-section {
+    position: sticky;
+    top: 0;
+    z-index: 9;
+}
+
+#navbar-section .navbar-nav .nav-link {
+    font-weight: 500;
+    font-size: 1.1rem;
+    transition: 0.3s ease-in-out;
+}
+
+#navbar-section .navbar-nav .nav-link:hover {
+    color: #ffbf00 !important;
+}
+
+/* Header Section End */
+
+
+
+/* Banner Section Start */
+/* Banner Section Bg-img and Dark Overlay */
+#banner-section {
+    background: url("../img/2\ MD\ Mostakin\ Sarker-1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    padding: 140px 0 140px;
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    z-index: 1;
+}
+
+#banner-section::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+    /* 50% dark overlay */
+    z-index: -1;
+}
+
+/* Banner Section End */
+
+
+
+/* Mission Vision Section Start */
+/* Header Section Start */
+#mission-vision-section {
+    background: #101828;
+}
+
+#mission-vision-section #pic img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+/* Mission Vision Section End */
+
+
+
+/* Service Section Start */
+#service-section {
+    background: #101828;
+}
+
+.service-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175) !important;
+}
+
+/* Service Section End */
+
+
+
+/* Clients Feedback-Section Start */
+#clients-feedback-section {
+    background: #101828;
+}
+
+/* Clients Feedback-Section End */
+
+
+
+/* Breadcrumb Section Start */
+#breadcrumb-section {
+    background-image: url(../img/Breadcrumb\ img-3.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 25vh;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+/* Breadcrumb Section End */
+
+
+
+/* Footer Section Start */
+/* Optional CSS for hovers */
+.hover-white {
+    transition: 0.3s ease-in-out;
+}
+
+.hover-white:hover {
+    color: #ffbf00 !important;
+}
+
+.tracking-wide {
+    letter-spacing: 1px;
+}
+
+/* Footer Section End */
+
+
+
+/* MD Mostakin Sarker Section Start */
+#md-mostakin-sarker-section {
+    background: #101828;
+}
+
+/* MD Mostakin Sarker Section End */
+
+
+
+/* My Selected Works Section Start */
+#my-selected-works-section {
+    background: #101828;
+}
+
+.tracking-wide {
+    letter-spacing: 1.5px;
+}
+
+.hover-lift {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-lift:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, .15) !important;
+}
+
+.hover-primary-btn {
+    transition: all 0.3s ease;
+}
+
+.hover-primary-btn:hover {
+    background-color: var(--bs-primary) !important;
+    border-color: var(--bs-primary) !important;
+    color: white !important;
+}
+
+/* Portfolio Card Hover Effects */
+.portfolio-card {
+    cursor: pointer;
+}
+
+.portfolio-img {
+    transition: transform 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.portfolio-card:hover .portfolio-img {
+    transform: scale(1.1);
+}
+
+.portfolio-overlay {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2));
+    opacity: 0;
+    transition: opacity 0.4s ease;
+}
+
+.portfolio-card:hover .portfolio-overlay {
+    opacity: 1;
+}
+
+.portfolio-content {
+    transform: translateY(30px);
+    opacity: 0;
+    transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.portfolio-card:hover .portfolio-content {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+/* My Selected Works Section End */
+
+
+
+/* My Technologies and Skills Section Start */
+#my-technologies-and-skills-section {
+    background: #101828;
+}
+
+.tracking-wide {
+    letter-spacing: 1.5px;
+}
+
+.hover-lift {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-lift:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, .15) !important;
+}
+
+.skill-tag {
+    transition: all 0.2s ease;
+    cursor: default;
+}
+
+.skill-tag:hover {
+    background-color: var(--bs-primary) !important;
+    color: white !important;
+    border-color: var(--bs-primary) !important;
+    transform: scale(1.05);
+}
+
+/* My Technologies and Skills Section End */
+
+
+
+/* My Educational Journey Section Start */
+#my-educational-journey-section {
+    background: #101828;
+}
+
+.tracking-wide {
+    letter-spacing: 1.5px;
+}
+
+.hover-lift {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid transparent;
+}
+
+.hover-lift:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, .15) !important;
+    border-color: var(--bs-primary);
+}
+
+/* My Educational Journey Section End */
+
+
+
+/* My Training Section Start */
+#my-training-section {
+    background: #101828;
+}
+
+/* My Training Section End */
+
+
+
+/* Work Experience Timeline Section Start */
+#work-experience-timeline-section {
+    background: #101828;
+}
+
+.tracking-wide {
+    letter-spacing: 1px;
+}
+
+.timeline-dot {
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.timeline-card {
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.hover-timeline-item:hover .timeline-dot {
+    background-color: var(--bs-primary) !important;
+    transform: translateX(-50%) scale(1.2) !important;
+}
+
+.hover-timeline-item:hover .timeline-card {
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, .1) !important;
+    transform: translateY(-3px);
+}
+
+/* Work Experience Timeline Section End */
+
+
+
+/* My Services Section Start */
+#my-services-section {
+    background: #101828;
+}
+
+.service-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175) !important;
+}
+
+/* My Services Section End */
+
+
+
+/* Contact Split Form Section Start */
+#Contact-Split-Form-Section {
+    background: #101828;
+}
+
+.hover-opacity-100:hover {
+    opacity: 1 !important;
+}
+
+/* Contact Split Form Section End */
